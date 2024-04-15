@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main id="container">
+    <section class="header">
+      <h1 class="header-title">
+        Notifications <span class="count-msg">3</span>
+      </h1>
+      <p class="all-read">
+        Mark all as read
+      </p>
+    </section>
+    <section class="content">
+      <article class="person unread">
+        <div class="logo">
+          <img src="./assets/images/avatar-mark-webber.webp" alt="">
+        </div>
+        <div class="info">
+          <h4 class="title"><span class="name">Mark Webber</span> reacted to your recent post <span class="msg">My first
+              tournament today!</span>
+            <p class="bullet"></p>
+          </h4>
+          <p class="date">1m ago</p>
+        </div>
+      </article>
+      <article class="person unread">
+        <div class="logo">
+          <img src="./assets/images/avatar-angela-gray.webp" alt="">
+        </div>
+        <div class="info">
+          <h4 class="title"><span class="name">Angela Gray</span> followed you <p class="bullet"></p>
+          </h4>
+          <p class="date">5m ago</p>
+        </div>
+      </article>
+      <article class="person unread">
+        <div class="logo">
+          <img src="./assets/images/avatar-jacob-thompson.webp" alt="">
+        </div>
+        <div class="info">
+          <h4 class="title"><span class="name">Jacob Thompson</span> has joined your
+            group <span class="msg">Chess Club</span>
+            <p class="bullet"></p>
+          </h4>
+          <p class="date">1 day ago</p>
+        </div>
+      </article>
+      <div style="margin-bottom: 1rem;">
+        <article class="person" style="margin: 0;">
+          <div class="logo">
+            <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="">
+          </div>
+          <div class="info">
+            <h4 class="title"><span class="name">Rizky Hasanuddin</span> sent you a private
+              message</h4>
+            <p class="date">5 days ago</p>
+          </div>
+        </article>
+        <div class="private">
+          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+          I'm already having lots of fun and improving my game.
+        </div>
+      </div>
+      <article class="user">
+        <div class="person">
+          <div class="logo">
+            <img src="./assets/images/avatar-kimberly-smith.webp" alt="">
+          </div>
+          <div class="info">
+            <h4 class="title"><span class="name">Kimberly Smith</span> <span class="msg"></span> commented on your
+              picture</h4>
+            <p class="date">1 week ago</p>
+          </div>
+        </div>
+        <div class="profile-image">
+          <img src="./assets/images/image-chess.webp" alt="chess" class="chess-img">
+        </div>
+      </article>
+      <article class="person">
+        <div class="logo">
+          <img src="./assets/images/avatar-nathan-peterson.webp" alt="">
+        </div>
+        <div class="info">
+          <h4 class="title"><span class="name">Nathan Peterson</span> reacted to your recent
+            post <span class="msg">5 end-game strategies to increase your win rate</span></h4>
+          <p class="date">2 weeks ago</p>
+        </div>
+      </article>
+      <article class="person">
+        <div class="logo">
+          <img src="./assets/images/avatar-anna-kim.webp" alt="">
+        </div>
+        <div class="info">
+          <h4 class="title"><span class="name">Anna Kim</span> left the group <span class="msg">Chess Club</span> </h4>
+          <p class="date">2 weeks ago</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/zihad-hossion" target="_blank">Zihad Hossion</a>.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
